@@ -15,7 +15,7 @@ This project implements a 32-bit Single-Cycle RISC-V Processor in SystemVerilog.
 
 ## Datapath
 
-![Datapath](Datapath/single_cycle_datapath.png)
+![Datapath](Single_Cycle_architecture.png)
 
 ## Simulation Result
 
