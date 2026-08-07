@@ -19,7 +19,7 @@ This project implements a 32-bit Single-Cycle RISC-V Processor in SystemVerilog.
 
 ## Simulation Result
 
-![Waveform](Waveforms/simulation.png)
+![Waveform](Single_Cycle_waveform1.png)
 
 ## Tools Used
 - SystemVerilog
