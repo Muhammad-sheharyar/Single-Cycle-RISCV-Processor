@@ -117,4 +117,4 @@ GitHub:
 https://github.com/Muhammad-sheharyar
 
 LinkedIn:
-linkedin.com/in/m-sheharyar
+[linkedin.com/in/m-sheharyar](https://www.linkedin.com/in/m-sheharyar/)
