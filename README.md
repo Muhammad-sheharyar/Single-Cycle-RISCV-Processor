@@ -7,7 +7,11 @@ A 32-bit Single-Cycle RISC-V Processor designed and implemented in SystemVerilog
 
 ## Overview
 
-This processor is based on the RV32I instruction set architecture and was developed as part of my IC Design & Verification learning journey. The design integrates the essential components required for instruction execution and demonstrates the working of a complete single-cycle datapath.
+This project implements a 32-bit Single-Cycle RISC-V Processor in SystemVerilog based on the RV32I instruction set architecture.
+
+## Project Objective
+
+To design and verify a complete single-cycle RISC-V CPU datapath and control unit while gaining hands-on experience in processor architecture and RTL design.
 
 ---
 
