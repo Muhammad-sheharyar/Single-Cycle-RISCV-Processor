@@ -8,7 +8,7 @@ module program_counter
     ); 
     
     always @(posedge clk or negedge reset)
-        if(reset)              //if reset==1; active (active-high)
+        if(!reset)              //if reset==1; active (active-high)
             pc_out  <=  32'b0;
         else
             pc_out  <=  pc_in;    
