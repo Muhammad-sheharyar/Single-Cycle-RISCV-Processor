@@ -32,7 +32,7 @@ module data_memory
 
     always_ff @(posedge clk or negedge reset)
     begin
-        if(reset)
+        if(!reset)
         begin
             for(int i=0; i<32; i++)
             data_mem[i] <= 32'b0;
