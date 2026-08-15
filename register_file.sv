@@ -41,7 +41,7 @@ module register_file
 
     always_ff @(posedge clk or negedge reset)
     begin
-        if(reset)
+     if(!reset)
         begin
             for(int i=0; i<32; i++)
             register[i] <= 32'd0;
