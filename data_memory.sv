@@ -39,14 +39,14 @@ module data_memory
         end
         else if(MemWrite)
         begin
-            data_mem[Address] <= WriteData;
+            data_mem[Address[6:2]] <= WriteData;
         end
     end
 
     always_comb
     begin
         if(MemRead)
-        ReadData = data_mem[Address];
+            ReadData = data_mem[Address[6:2]];
         else
         ReadData = 32'b0;
     end
