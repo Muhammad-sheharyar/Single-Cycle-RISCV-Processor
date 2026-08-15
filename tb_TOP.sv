@@ -27,10 +27,10 @@ module tb_TOP;
    
    always #1 clk = ~clk;
    
-   initial begin
+    initial begin
     clk = 0;
-    reset =1; #2
-    reset =0;
+    reset =0; #1;  
+    reset =1;
     #100;
     $finish;
     end
