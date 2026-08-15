@@ -55,6 +55,10 @@ The processor currently supports the following RISC-V instructions:
 
 The processor was verified using a RISC-V assembly program that performs the summation of array elements. Simulation results confirm the correct execution of instruction fetch, decode, execute, memory access, and write-back operations.
 
+## Self-Check Result
+
+![Simulation Waveform](Self-Check-Result.png)
+
 ---
 
 ## Verification
